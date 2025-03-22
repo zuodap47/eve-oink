@@ -1,5 +1,5 @@
 # eve-oink
-Faster parity game solver for faster rational verification (Integrating oink into EVEE) 
+Faster parity game solver for faster rational verification (Integrating oink into EVE) 
 
 # EVE with Oink Integration
 Equilibrium Verification Environment
