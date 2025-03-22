@@ -1,0 +1,6 @@
+Solving Non-Emptiness of experiments/bisim_ne5.rml
+Kripke states 18
+Kripke edges 288
+alice  F p
+bob  F q
+charlie  G  !  ( p or q ) 

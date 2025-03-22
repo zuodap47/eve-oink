@@ -1,0 +1,4 @@
+(executable
+ (public_name eve_parity)
+ (name main)
+ (libraries eve_parity))
