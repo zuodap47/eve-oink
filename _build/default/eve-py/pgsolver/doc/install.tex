@@ -1,0 +1,54 @@
+\section{Installation Guide}
+
+\subsection{Obtaining the Relevant Parts}
+
+You can obtain the source code for \pgsolver from
+\begin{center}
+    \url{https://github.com/tcsprojects/pgsolver}
+\end{center}
+Download the latest sources.
+\begin{verbatim}
+    ~> git clone https://github.com/tcsprojects/pgsolver
+\end{verbatim}
+This will create a directory \texttt{pgsolver} and various subdirectories in it.
+\begin{verbatim}
+    ~> cd pgsolver
+\end{verbatim}
+
+In order to compile \pgsolver from source code you will need the OCaml compiler. A convenient way is to install the OCaml 
+Package Manager \texttt{opam}. Install it via any package manager for your system or download it from
+\begin{center}
+\url{https://opam.ocaml.org/}
+\end{center}
+Then get the OCaml compiler installed via.
+\begin{verbatim}
+    ~> opam switch 4.07.0 
+    ~> eval `opam config env`
+\end{verbatim}
+It may be recommendable to use a later version of the OCaml compiler. Previous versions before 4.07.0 may also work.
+
+Next you need the compilation tool \texttt{ocamlbuild} and some additional packages which can be installed via:
+\begin{verbatim}
+    ~> opam install ocamlbuild ocamlfind TCSLib extlib ocaml-sat-solvers minisat
+\end{verbatim}
+
+If you intent to contribute to the development of \pgsolver you may want to use unit tests as well. This requires:
+\begin{verbatim}
+    ~> opam install ounit
+\end{verbatim}
+
+
+
+\subsection{Compiling \pgsolver}
+
+Now change into the \pgsolver directory.
+\begin{verbatim}
+    ~> cd pgsolver
+\end{verbatim}
+
+To start the compilation, type 
+\begin{verbatim}
+    ~/pgsolver> ocaml setup.ml -configure
+    ~/pgsolver> ocaml setup.ml -build
+\end{verbatim}
+

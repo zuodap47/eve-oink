@@ -1,0 +1,6 @@
+# dune init project eve_parity
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/mirror/.cache/dune/db
+# Workspace root: /home/mirror/eve-parity-master/eve_parity
+# Auto-detected concurrency: 2

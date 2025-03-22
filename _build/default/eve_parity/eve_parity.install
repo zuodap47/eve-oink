@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/eve_parity/META"
+  "_build/install/default/lib/eve_parity/dune-package"
+  "_build/install/default/lib/eve_parity/opam"
+]
+bin: [
+  "_build/install/default/bin/eve_parity"
+]

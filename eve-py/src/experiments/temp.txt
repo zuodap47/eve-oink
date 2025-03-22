@@ -1,0 +1,10 @@
+Checking A-Nash property formula:  G  F  ( s1 or s2 or s3 or s4 or s5 or s6 or s7 ) 
+Kripke states 128
+Kripke edges 2187
+RM1  (  G  F  ! s1 ) 
+RM2  (  G  F  ! s2 ) 
+RM3  (  G  F  ! s3 ) 
+RM4  (  G  F  ! s4 ) 
+RM5  (  G  F  ! s5 ) 
+RM6  (  G  F  ! s6 ) 
+RM7  (  G  F  ! s7 ) 
